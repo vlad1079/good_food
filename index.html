@@ -36,7 +36,12 @@
 
 
 
-        a {
+        a,
+        a:link,
+        a:visited,
+        a:hover,
+        a:active {
+            color: inherit;
             text-decoration: none;
         }
 
@@ -98,9 +103,11 @@
             .pad7 {
                 padding: 0 25px 0 25px !important;
             }
+
             .pad8 {
                 padding: 20px 10px 5px 30px !important;
             }
+
             .pad9 {
                 padding: 5px 10px 20px 30px !important;
             }
@@ -113,16 +120,16 @@
                 display: table-header-group !important;
             }
 
-            .fgrour {
+            .fgroup {
                 display: table-footer-group !important;
             }
+
             .email {
-                height: 60px !important;
-                vertical-align: bottom !important;
+                padding: 23px 10px 10px 30px !important;
             }
+
             .call {
-                height: 60px !important;
-                vertical-align: top !important;
+                padding: 10px 10px 20px 30px !important;
             }
         }
     </style>
@@ -155,14 +162,15 @@
                 <!-- header -->
                 <tr>
                     <td>
-                        <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="width: 100%;max-width: 600px;">
+                        <table border="0" cellspacing="0" cellpadding="0" role="presentation"
+                            style="width: 100%;max-width: 600px;">
                             <tr>
                                 <td>
                                     <!--[if (gte mso 9)|(IE)]>
-                                                            <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
-                                                            <tr>
-                                                            <td>
-                                                            <![endif]-->
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                                    <tr>
+                                    <td>
+                                    <![endif]-->
 
                                     <table class="mw" border="0" cellspacing="0" cellpadding="0" role="presentation"
                                         style="max-width: 298px;width: 100%;display: inline-block;">
@@ -179,14 +187,14 @@
                                                     <tr>
                                                         <td style="padding: 5px 0 10px 0;">
                                                             <p style="font-size: 28px;line-height: 28px;letter-spacing: -.1px;color: #000000;font-family: 'Nunito', Arial, Helvetica, sans-serif;padding: 0;
-                                                                                        margin: 0;">
+                                                                                                        margin: 0;">
                                                                 Good food choices for you.</p>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td style="padding: 5px 0 15px 0;">
                                                             <p style="font-size: 16px;line-height: 18px;font-family: 'Nunito', Arial, Helvetica, sans-serif;color: #000000;letter-spacing: -.1px;margin: 0;
-                                                                                        padding: 0;">
+                                                                                                        padding: 0;">
                                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                             </p>
                                                         </td>
@@ -212,8 +220,8 @@
                                     </table>
 
                                     <!--[if (gte mso 9)|(IE)]>
-                                                            </td><td>
-                                                            <![endif]-->
+                                    </td><td>
+                                    <![endif]-->
 
                                     <table class="mw" border="0" cellspacing="0" cellpadding="0" role="presentation"
                                         style="max-width: 298px;width: 100%;display: inline-block;">
@@ -235,10 +243,10 @@
                                     </table>
 
                                     <!--[if (gte mso 9)|(IE)]>
-                                                            </td>
-                                                            </tr>
-                                                            </table>
-                                                            <![endif]-->
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
                                 </td>
                             </tr>
                         </table>
@@ -248,10 +256,11 @@
                 <!-- Email Call -->
                 <tr>
                     <td>
-                        <table width="100%" bgcolor="#ededef" border="0" cellspacing="0" cellpadding="0"
-                            role="presentation" style="width: 100%;max-width: 600px;">
+                        <table width="600" bgcolor="#ededef" border="0" cellspacing="0" cellpadding="0"
+                            role="presentation"
+                            style="width: 100%;max-width: 600px;height: auto;background-color: #ededef;border-collapse:collapse;">
                             <tr>
-                                <td>
+                                <td style="background-color: #ededef;">
 
                                     <!--[if (gte mso 9)|(IE)]>
                                     <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
@@ -259,10 +268,11 @@
                                     <td>
                                     <![endif]-->
 
-                                    <table class="mw" border="0" cellspacing="0" cellpadding="0" role="presentation"
-                                        style="max-width: 298px;width: 100%;display: inline-block;">
+                                    <table class="mw" width="300" border="0" cellspacing="0" cellpadding="0"
+                                        role="presentation"
+                                        style="max-width: 298px;width: 100%;display: inline-block;background-color: #ededef;">
                                         <tr>
-                                            <td class="email" style="padding: 0 10px 0 30px;height: 90px;">
+                                            <td class="email" style="padding: 23px 10px 23px 30px;">
                                                 <table border="0" cellspacing="0" cellpadding="0" role="presentation">
                                                     <tr>
                                                         <td style="padding: 10px 15px 10px 0;">
@@ -298,13 +308,14 @@
                                     </td><td>
                                     <![endif]-->
 
-                                    <table class="mw" border="0" cellspacing="0" cellpadding="0" role="presentation"
-                                        style="max-width: 298px;width: 100%;display: inline-block;">
+                                    <table class="mw" width="300" border="0" cellspacing="0" cellpadding="0"
+                                        role="presentation"
+                                        style="max-width: 298px;width: 100%;display: inline-block;background-color: #ededef;">
                                         <tr>
-                                            <td class="call" style="padding: 0 10px 0 30px;height: 90px;">
+                                            <td class="call" style="padding: 20px 10px 20px 30px;">
                                                 <table border="0" cellspacing="0" cellpadding="0" role="presentation">
                                                     <tr>
-                                                        <td valign="middle" style="padding: 10px 15px 10px 0;">
+                                                        <td style="padding: 10px 15px 10px 0;">
                                                             <img class="mw4" width="30" height="30"
                                                                 src="https://i.postimg.cc/0jf9HtCX/phone.png" alt="mail"
                                                                 style="width: 100%;display: block;height: auto;max-width: 30px;" />
@@ -349,23 +360,28 @@
                 <!-- Welcome to our Restaurant -->
                 <tr>
                     <td>
-                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="max-width: 600px;width: 100%;background-color: #ffffff;">
+                        <table align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0"
+                            role="presentation"
+                            style="max-width: 600px;width: 100%;background-color: #ffffff;height: auto;border-collapse:collapse;">
                             <tr>
                                 <td>
                                     <!--[if (gte mso 9)|(IE)]>
-                                                            <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
-                                                            <tr>
-                                                            <td>
-                                                            <![endif]-->
-                                    
-                                    <table class="mw" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" role="presentation"
-                                        style="width: 100%;max-width: 313px;display: inline-block;">
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                                    <tr>
+                                    <td>
+                                    <![endif]-->
+
+                                    <table class="mw" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0"
+                                        role="presentation" style="width: 100%;max-width: 313px;display: inline-block;">
                                         <tr>
                                             <td class="pad" style="padding: 30px 30px 0 50px;">
-                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation" style="width: 100%;">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                                                    role="presentation" style="width: 100%;">
                                                     <tr>
                                                         <td class="pad" style="padding: 30px 0 0 15px;">
-                                                            <img class="mw" src="https://i.postimg.cc/sxCmxm76/about.png" alt="about" width="250"
+                                                            <img class="mw"
+                                                                src="https://i.postimg.cc/sxCmxm76/about.png"
+                                                                alt="about" width="250"
                                                                 style="width: 100%;display: block;height: auto;" />
                                                         </td>
                                                     </tr>
@@ -373,11 +389,11 @@
                                             </td>
                                         </tr>
                                     </table>
-                                    
+
                                     <!--[if (gte mso 9)|(IE)]>
-                                                            </td><td>
-                                                            <![endif]-->
-                                    
+                                    </td><td>
+                                    <![endif]-->
+
                                     <table class="mw" border="0" cellspacing="0" cellpadding="0" role="presentation"
                                         style="max-width: 283px;width: 100%;display: inline-block;vertical-align: top;">
                                         <tr>
@@ -387,7 +403,7 @@
                                                         <td>
                                                             <p
                                                                 style="padding: 0;
-                                                                                    margin: 0;font-size: 18px;line-height: 18px;font-family: 'Nunito', sans-serif;color: #000000;letter-spacing: -.1px;">
+                                                                                                                                                                                                                                                                                                                                margin: 0;font-size: 18px;line-height: 18px;font-family: 'Nunito', sans-serif;color: #000000;letter-spacing: -.1px;">
                                                                 Welcome to our Restaurant</p>
                                                         </td>
                                                     </tr>
@@ -400,17 +416,20 @@
                                                         <td style="padding: 25px 0 25px 0;vertical-align: top;">
                                                             <p
                                                                 style="padding: 0;
-                                                                                    margin: 0;font-size: 16px;line-height: 18px;font-family: 'Nunito', sans-serif;color: #000000;">
-                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur
+                                                                                                                                                                                                                                                                                                                                margin: 0;font-size: 16px;line-height: 18px;font-family: 'Nunito', sans-serif;color: #000000;">
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                                consectetur
                                                                 Lorem ipsum dolor sit amet, consectetur</p>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="pad" style="padding: 0 0 15px 0;vertical-align: top;">
+                                                        <td class="pad"
+                                                            style="padding: 0 0 15px 0;vertical-align: top;">
                                                             <p
                                                                 style="padding: 0;
-                                                                                    margin: 0;font-size: 16px;line-height: 18px;font-family: 'Nunito', sans-serif;color: #000000;">
-                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ips
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    margin: 0;font-size: 16px;line-height: 18px;font-family: 'Nunito', sans-serif;color: #000000;">
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                                lorem ips
                                                                 consectetur</p>
                                                         </td>
                                                     </tr>
@@ -418,12 +437,12 @@
                                             </td>
                                         </tr>
                                     </table>
-                                    
+
                                     <!--[if (gte mso 9)|(IE)]>
-                                                            </td>
-                                                            </tr>
-                                                            </table>
-                                                            <![endif]-->
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
                                 </td>
                             </tr>
                         </table>
@@ -433,15 +452,16 @@
                 <!-- Salad variant -->
                 <tr>
                     <td class="pad" style="padding: 30px 0 0 0;">
-                        <table bgcolor="#EDEDEF" border="0" cellspacing="0" cellpadding="0" role="presentation" style="max-width: 600px;width: 100%;">
+                        <table bgcolor="#EDEDEF" border="0" cellspacing="0" cellpadding="0" role="presentation"
+                            style="max-width: 600px;width: 100%;">
                             <tr>
                                 <td>
 
                                     <!--[if (gte mso 9)|(IE)]>
-                                    <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
-                                    <tr>
-                                    <td>
-                                    <![endif]-->
+                                                    <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                                                    <tr>
+                                                    <td>
+                                                    <![endif]-->
 
                                     <table class="mw" border="0" cellspacing="0" cellpadding="0" role="presentation"
                                         style="max-width: 298px;width: 100%;display: inline-block;">
@@ -462,8 +482,8 @@
                                     </table>
 
                                     <!--[if (gte mso 9)|(IE)]>
-                                    </td><td>
-                                    <![endif]-->
+                                                    </td><td>
+                                                    <![endif]-->
 
                                     <table class="mw" border="0" cellspacing="0" cellpadding="0" role="presentation"
                                         style="max-width: 298px;width: 100%;display: inline-block;vertical-align: top;">
@@ -473,14 +493,14 @@
                                                     <tr>
                                                         <td align="center" style="padding: 15px 0 15px 0;">
                                                             <p style="font-size: 18px;line-height: 18px;font-family: 'Nunito', sans-serif;color: #000000;letter-spacing: -.1px;font-weight: bold;padding: 0;
-                                                                                        margin: 0;">
+                                                                                                        margin: 0;">
                                                                 Salad variant combination</p>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td align="center" style="padding: 5px 0 15px 0;">
                                                             <p style="font-size: 16px;line-height: 18px;font-family: 'Nunito', sans-serif;color: #000000;letter-spacing: -.1px;padding: 0;
-                                                                                        margin: 0;">
+                                                                                                        margin: 0;">
                                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                                 consectetur
                                                             </p>
@@ -489,34 +509,36 @@
                                                     <tr>
                                                         <td align="center" style="padding: 15px 0 15px 0;">
                                                             <p style="font-size: 16px;line-height: 18px;font-family: 'Nunito', sans-serif;color: #000000;letter-spacing: -.1px;padding: 0;
-                                                                                        margin: 0;">
+                                                                                                        margin: 0;">
                                                                 Salad varian 1 ----------------- $7.00</p>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td align="center" style="padding: 15px 0 15px 0;">
                                                             <p style="font-size: 16px;line-height: 18px;font-family: 'Nunito', sans-serif;color: #000000;letter-spacing: -.1px;padding: 0;
-                                                                                        margin: 0;">
+                                                                                                        margin: 0;">
                                                                 Salad variant 2 ----------------- $4.00</p>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td align="center" style="padding: 15px 0 15px 0;">
                                                             <p style="font-size: 16px;line-height: 18px;font-family: 'Nunito', sans-serif;color: #000000;letter-spacing: -.1px;padding: 0;
-                                                                                        margin: 0;">
+                                                                                                        margin: 0;">
                                                                 Salad varian 3 ----------------- $5.00</p>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td align="center">
-                                                            <table width="130" border="0" cellspacing="0"
-                                                                cellpadding="0" role="presentation"
-                                                                style="max-width: 130px;width: 100%;background-color: #000000;">
+                                                            <table bgcolor="#000000" width="130" border="0"
+                                                                cellspacing="0" cellpadding="0" role="presentation"
+                                                                style="max-width:130px;width:100%;background-color:#000000;">
                                                                 <tr>
-                                                                    <td align="center"
-                                                                        style="padding: 5px 10px 10px 10px;border: 1px solid #000000;">
-                                                                        <a style="font-size: 16px;font-family: 'Nunito', sans-serif;color: #ffffff;letter-spacing: -.1px;text-decoration: none;line-height: 18px;font-weight: bold;"
-                                                                            href="#">Order Now</a>
+                                                                    <td bgcolor="#000000" align="center"
+                                                                        style="background-color:#000000;padding:10px 20px 10px 20px;border:1px solid #000000;">
+                                                                        <a href="#"
+                                                                            style="font-size:16px;font-family:Arial,Helvetica,sans-serif;color:#ffffff;text-decoration:none;line-height:18px;font-weight:bold;display:inline-block;">
+                                                                            Order Now
+                                                                        </a>
                                                                     </td>
                                                                 </tr>
                                                             </table>
@@ -528,10 +550,10 @@
                                     </table>
 
                                     <!--[if (gte mso 9)|(IE)]>
-                                    </td>
-                                    </tr>
-                                    </table>
-                                    <![endif]-->
+                                                    </td>
+                                                    </tr>
+                                                    </table>
+                                                    <![endif]-->
 
                                 </td>
                             </tr>
@@ -542,7 +564,8 @@
                 <!-- section Sensasional-->
                 <tr>
                     <td>
-                        <table bgcolor="#000000" border="0" cellspacing="0" cellpadding="0" role="presentation" style="max-width: 600px;width: 100%;">
+                        <table bgcolor="#000000" border="0" cellspacing="0" cellpadding="0" role="presentation"
+                            style="max-width: 600px;width: 100%;">
                             <tr>
                                 <td>
                                     <!--[if (gte mso 9)|(IE)]>
@@ -551,7 +574,7 @@
                                     <td>
                                     <![endif]-->
 
-                                    <table class="fgrour mw" border="0" cellspacing="0" cellpadding="0"
+                                    <table class="fgroup mw" border="0" cellspacing="0" cellpadding="0"
                                         role="presentation"
                                         style="max-width: 298px;width: 100%;display: inline-block;vertical-align: top;">
                                         <tr>
@@ -978,10 +1001,10 @@
                                                         <td align="center">
                                                             <table border="0" cellspacing="0" cellpadding="0"
                                                                 role="presentation"
-                                                                style="max-width: 130px;width: 100%;">
+                                                                style="max-width: 130px;width: 100%;background-color: #000000;">
                                                                 <tr>
                                                                     <td align="center"
-                                                                        style="padding: 10px 20px 10px 20px;background-color: #000000;">
+                                                                        style="padding: 10px 20px 10px 20px;">
                                                                         <a style="font-size: 16px;line-height: 18px;font-family: 'Nunito', sans-serif;color: #ffffff;text-decoration: none;font-weight: bold;"
                                                                             href="#">Order Now</a>
                                                                     </td>
@@ -1071,7 +1094,7 @@
                                                                 role="presentation">
                                                                 <tr>
                                                                     <td>
-                                                                        <img width="50" height="50"
+                                                                        <img width="75" height="75"
                                                                             src="https://i.postimg.cc/26R9LCf5/test1.png"
                                                                             alt="test1"
                                                                             style="width: 100%;display: block;height: auto;" />
@@ -1139,7 +1162,7 @@
                                                                 role="presentation">
                                                                 <tr>
                                                                     <td>
-                                                                        <img width="50" height="50"
+                                                                        <img width="75" height="75"
                                                                             src="https://i.postimg.cc/4yX8wwyn/test2.png"
                                                                             alt="test2"
                                                                             style="width: 100%;display: block;height: auto;" />
@@ -1465,7 +1488,7 @@
                                             <td style="padding: 10px 10px 10px 10px;">
                                                 <a href="#">
                                                     <img class="mw3" src="https://i.postimg.cc/dQmQ11Kk/fb.png" alt="fb"
-                                                        width="20" height="20"
+                                                        width="30" height="30"
                                                         style="width: 100%;display: block;height: auto;" />
                                                 </a>
                                             </td>
@@ -1488,7 +1511,7 @@
                                             <td style="padding: 10px 10px 10px 10px;">
                                                 <a href="#">
                                                     <img class="mw3" src="https://i.postimg.cc/wxcxvvdf/tw.png"
-                                                        alt="twitter" width="20" height="20"
+                                                        alt="twitter" width="30" height="30"
                                                         style="width: 100%;display: block;height: auto;" />
                                                 </a>
                                             </td>
@@ -1511,7 +1534,8 @@
                                             <td style="padding: 10px 10px 10px 10px;">
                                                 <a href="#">
                                                     <img class="mw3" src="https://i.postimg.cc/zXzzRrJc/ig.png" alt="ig"
-                                                        width="20" height="20" style="width: 100%;display: block;height: auto;" />
+                                                        width="30" height="30"
+                                                        style="width: 100%;display: block;height: auto;" />
                                                 </a>
                                             </td>
                                         </tr>
